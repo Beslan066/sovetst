@@ -8,7 +8,7 @@ Route::get('/news', [\App\Http\Controllers\HomeController::class, 'news'])->name
 Route::get('/news/{post}', [\App\Http\Controllers\HomeController::class, 'single'])->name('newsSingle');
 Route::get('/team', [\App\Http\Controllers\HomeController::class, 'team'])->name('team');
 Route::get('/presidium-team', [\App\Http\Controllers\HomeController::class, 'presidiumTeam'])->name('presidiumTeam');
-Route::get('/documents', [\App\Http\Controllers\HomeController::class, 'documents'])->name('documents');
+Route::get('/document', [\App\Http\Controllers\HomeController::class, 'document'])->name('documents');
 Route::get('/about', [\App\Http\Controllers\HomeController::class, 'about'])->name('about');
 Route::get('/contact', [\App\Http\Controllers\HomeController::class, 'contact'])->name('contact');
 

@@ -70,9 +70,9 @@ class HomeController extends Controller
         return view('presidium-team');
     }
 
-    public function documents()
+    public function document()
     {
-        return view('documents');
+        return view('document');
     }
 
     public function about()
