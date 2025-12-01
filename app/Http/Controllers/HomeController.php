@@ -31,10 +31,16 @@ class HomeController extends Controller
     public function news()
     {
 
+
+        $categories = Category::query()->withCount('posts')->get();
+
+        $posts = Post::query()->with('category')->paginate(10);
         $popularPosts = Post::query()->with('category')->orderBy('views', 'DESC')->take(5)->get();
 
         return view('news', [
             'popularPosts' => $popularPosts,
+            'categories' => $categories,
+            'posts' => $posts,
         ]);
     }
 

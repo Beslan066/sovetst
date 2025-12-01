@@ -41,17 +41,6 @@
                     </div>
 
                     <div class="spacer" data-height="50" style="height: 50px;"></div>
-
-                    <div class="details">
-                        <ul class="social-icons list-unstyled list-inline mb-0">
-                            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fab fa-medium"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
-                        </ul>
-                    </div>
-
-
                 </div>
 
                 <div class="col-lg-4">
